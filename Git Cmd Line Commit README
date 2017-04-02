@@ -1,0 +1,46 @@
+#Git Commit Code
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\kcopmans>echo "# Python_1" >> README.md
+
+C:\Users\kcopmans>git init
+Initialized empty Git repository in C:/Users/kcopmans/.git/
+
+C:\Users\kcopmans>add README.md
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kcopmans>git add README.md
+
+C:\Users\kcopmans>git commit -m "first commit"
+[master (root-commit) eead45e] first commit
+ Committer: kcopmans <kcopmans>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\kcopmans>git remote add origin https://github.com/kcopmans/Python_1.git
+
+
+C:\Users\kcopmans>git push -u origin master
+Username for 'https://github.com': kcopmans
+Password for 'https://kcopmans@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 210 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kcopmans/Python_1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
