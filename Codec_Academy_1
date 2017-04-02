@@ -19,3 +19,11 @@ def spam():
   return eggs
         
 print spam()
+
+# Single Line Comments
+# Are written with # at the beginning
+
+# Multiple Line Comments
+""" This is an example
+of a multi-line comment marked with triple apostrophe
+"""
