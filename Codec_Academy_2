@@ -1,0 +1,15 @@
+# How to run mathematical operators in Python
+
+addition = 72 + 23
+subtraction = 108 - 204
+multiplication = 108 * 0.5
+division = 108 / 9
+
+# Running exponents
+
+eight = 2 ** 3
+
+# Calculating modulo
+
+spam = 6 % 5
+
